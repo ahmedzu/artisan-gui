@@ -1,0 +1,24 @@
+{
+    "name": "ahmedzu/artisan-gui",
+    "description": "A Laravel package for running Artisan commands from the web",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Ahmedzu\\ArtisanGui\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmedzu\\ArtisanGui\\ArtisanGuiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
+
+
