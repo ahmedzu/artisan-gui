@@ -22,6 +22,10 @@ class ArtisanGuiServiceProvider extends ServiceProvider
     }
 }
 
+// to publish the package give it a tag (version)
+// git tag
+// git tag v1.0.0
+// git push origin v1.0.0
 
 //to develop the package locally, you can add the following to your composer.json file
 // "repositories": [
