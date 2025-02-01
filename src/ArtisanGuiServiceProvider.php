@@ -21,3 +21,12 @@ class ArtisanGuiServiceProvider extends ServiceProvider
 
     }
 }
+
+
+//to develop the package locally, you can add the following to your composer.json file
+// "repositories": [
+//     {
+//         "type": "path",
+//         "url": "./packages/ahmedzu/artisan-gui"
+//     }
+//     ],
