@@ -19,5 +19,5 @@ use Ahmedzu\ArtisanGui\Controllers\ArtisanController;
 //     return view('welcome');
 // });
 
-Route::get('/artisan', [ArtisanController::class, 'index'])->name('artisan.index');
+Route::get('/artisan_gui', [ArtisanController::class, 'index'])->name('artisan.index');
 Route::post('/artisan/execute', [ArtisanController::class, 'execute'])->name('artisan.execute');
